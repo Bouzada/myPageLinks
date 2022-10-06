@@ -13,4 +13,4 @@ A página foi desenvolvida de forma mobile first já que será colocada no Insta
 
 ## Deploy
 
-Para fazer o deploy do projeto utilizei o site netlify que tem a opção gratuita já que é um projeto de portifólio mas que também farei uso.
+Para fazer o deploy do projeto utilizei o github pages que é gratuito já que é um projeto de portifólio mas que também farei uso.

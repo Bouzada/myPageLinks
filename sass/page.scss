@@ -5,9 +5,10 @@
 }
 
 body {
-   background: url(../img/walpaper2.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
+   background-color: #2F4F4F;
+   // background: url(../img/wallpaper3.jpg);
+   // background-size: cover;
+   // background-repeat: no-repeat;
 }
 
 .container00 {
@@ -30,7 +31,7 @@ body {
    img {
       max-width: 150px;
       border: 1px solid #1c1c1c;
-      border-radius: 100px;
+      border-radius: 100%;
    }
 
    .btn {

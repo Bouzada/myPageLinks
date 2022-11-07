@@ -22,25 +22,27 @@ body {
    justify-content: center;
    gap: 3vh;
 
+   img {
+      max-width: 200px;
+      border: 1px solid #d3d3d3;
+      border-radius: 100%;
+   }
+
    .name {
       font-size: 40px;
       color: #d3d3d3;
    }
 
-   img {
-      max-width: 150px;
-      border: 1px solid #1c1c1c;
-      border-radius: 100%;
-   }
-
    .btn {
       width: 500px;
-      border: 1px solid #d3d3d3;
+      border: 2px solid #d3d3d3;
       border-radius: 15px;
       font-size: 18px;
+      font-weight: 500;
       color: #d3d3d3;
 
       &:hover {
+         width: 600px;
          background-color: #1c1c1c;
          transition: 0.8;
       }

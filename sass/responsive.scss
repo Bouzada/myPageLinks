@@ -1,45 +1,62 @@
-@media (max-width: 540px) {
+@media (max-width: 650px) {
    .container01 {
+
+      img {
+         width: 150px;
+      }
+
       .name {
          font-size: 30px;
       }
 
       .btn {
          width: 375px;
+         border: 1px solid #d3d3d3;
+         font-weight: 400;
+
+         &:hover {
+            width: 425px;
+         }
       }
    }
 }
 
-@media (max-width: 406px) {
+@media (max-width: 450px) {
    .container01 {
-      .name {
-         font-size: 25px;
-      }
-
       img {
          width: 125px;
       }
 
+      .name {
+         font-size: 25px;
+      }
+
       .btn {
          width: 300px;
+         font-size: 16px;
+         font-weight: 200;
+
+         &:hover {
+            width: 350px;
+         }
       }
    }
 }
 
-@media (max-width: 347px) {
+@media (max-width: 375px) {
    .container01 {
       .name {
          font-size: 20px;
          font-weight: 600;
       }
 
-      img {
-         width: 100px;
-      }
-
       .btn {
          width: 250px;
          font-size: 15px;
+
+         &:hover {
+            width: 300px;
+         }
       }
    }
 
@@ -48,7 +65,7 @@
    }
 }
 
-@media (max-width: 293px) {
+@media (max-width: 300px) {
    .container01 {
       .name {
          font-size: 16px;
@@ -57,6 +74,10 @@
       .btn {
          width: 200px;
          font-size: 14px;
+
+         &:hover {
+            width: 235px;
+         }
       }
    }
 
@@ -66,19 +87,24 @@
 }
 
 @media (max-width: 243px) {
+
    .container01 {
+      img {
+         width: 75px;
+      }
+
       .name {
          font-size: 14px;
          font-weight: 600;
       }
 
-      img {
-         width: 75px;
-      }
-
       .btn {
          width: 150px;
          font-size: 12px;
+
+         &:hover {
+            width: 175px;
+         }
       }
    }
 

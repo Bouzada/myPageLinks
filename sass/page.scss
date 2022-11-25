@@ -5,9 +5,7 @@
 }
 
 body {
-   background: url(../img/wallpaper.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
+   background-color: $red-color;
 }
 
 .container00 {
@@ -24,22 +22,22 @@ body {
 
    img {
       max-width: 200px;
-      border: 1px solid #d3d3d3;
+      border: 1px solid $light-color;
       border-radius: 100%;
    }
 
    .name {
       font-size: 40px;
-      color: #d3d3d3;
+      color: $light-color;
    }
 
    .btn {
       width: 500px;
-      border: 2px solid #d3d3d3;
+      border: 2px solid $light-color;
       border-radius: 15px;
       font-size: 18px;
       font-weight: 500;
-      color: #d3d3d3;
+      color: $light-color;
 
       &:hover {
          width: 600px;
@@ -54,7 +52,7 @@ body {
    width: 100%;
    min-height: auto;
    background-color: #1c1c1c;
-   color: #d3d3d3;
+   color: $light-color;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -64,7 +62,7 @@ body {
    padding-top: 1%;
 
    .contato a {
-      color: #d3d3d3;
+      color: $light-color;
       margin-right: 2%;
    }
 }

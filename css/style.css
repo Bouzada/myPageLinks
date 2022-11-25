@@ -5,9 +5,7 @@
 }
 
 body {
-  background: url(../img/wallpaper.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #B22222;
 }
 
 .container00 {
@@ -24,20 +22,20 @@ body {
 }
 .container01 img {
   max-width: 200px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #FFDEAD;
   border-radius: 100%;
 }
 .container01 .name {
   font-size: 40px;
-  color: #d3d3d3;
+  color: #FFDEAD;
 }
 .container01 .btn {
   width: 500px;
-  border: 2px solid #d3d3d3;
+  border: 2px solid #FFDEAD;
   border-radius: 15px;
   font-size: 18px;
   font-weight: 500;
-  color: #d3d3d3;
+  color: #FFDEAD;
 }
 .container01 .btn:hover {
   width: 600px;
@@ -50,7 +48,7 @@ body {
   width: 100%;
   min-height: auto;
   background-color: #1c1c1c;
-  color: #d3d3d3;
+  color: #FFDEAD;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -60,7 +58,7 @@ body {
   padding-top: 1%;
 }
 .footer .contato a {
-  color: #d3d3d3;
+  color: #FFDEAD;
   margin-right: 2%;
 }
 

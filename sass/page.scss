@@ -38,10 +38,11 @@ body {
       font-size: 18px;
       font-weight: 500;
       color: $light-color;
+      transition: .8s;
 
       &:hover {
          width: 600px;
-         background-color: #1c1c1c;
+         background-color: $dark-color;
          transition: 0.8;
       }
    }
@@ -51,7 +52,7 @@ body {
    min-height: 10vh;
    width: 100%;
    min-height: auto;
-   background-color: #1c1c1c;
+   background-color: $dark-color;
    color: $light-color;
    display: flex;
    flex-direction: row;

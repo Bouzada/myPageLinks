@@ -39,7 +39,7 @@ body {
   transition: 0.8s;
 }
 .container01 .btn:hover {
-  width: 600px;
+  transform: scale(1.25, 1.25);
   background-color: #1c1c1c;
   transition: 0.8;
 }
@@ -75,9 +75,6 @@ body {
     border: 1px solid #d3d3d3;
     font-weight: 400;
   }
-  .container01 .btn:hover {
-    width: 425px;
-  }
 }
 @media (max-width: 450px) {
   .container01 img {
@@ -91,9 +88,6 @@ body {
     font-size: 16px;
     font-weight: 200;
   }
-  .container01 .btn:hover {
-    width: 350px;
-  }
 }
 @media (max-width: 375px) {
   .container01 .name {
@@ -103,9 +97,6 @@ body {
   .container01 .btn {
     width: 250px;
     font-size: 15px;
-  }
-  .container01 .btn:hover {
-    width: 300px;
   }
   .footer {
     font-size: 12px;
@@ -118,9 +109,6 @@ body {
   .container01 .btn {
     width: 200px;
     font-size: 14px;
-  }
-  .container01 .btn:hover {
-    width: 235px;
   }
   .footer {
     font-size: 10px;
@@ -137,9 +125,6 @@ body {
   .container01 .btn {
     width: 150px;
     font-size: 12px;
-  }
-  .container01 .btn:hover {
-    width: 175px;
   }
   .footer {
     font-size: 10px;

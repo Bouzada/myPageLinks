@@ -41,7 +41,7 @@ body {
       transition: .8s;
 
       &:hover {
-         width: 600px;
+         transform: scale(1.25, 1.25);
          background-color: $dark-color;
          transition: 0.8;
       }

@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Signika Negative", sans-serif;
 }
 
 .container01 {
@@ -53,6 +54,7 @@ body {
   width: 100%;
   min-height: auto;
   background-color: #1c1c1c;
+  font-family: "Secular One", sans-serif;
   color: #FFDEAD;
   display: flex;
   flex-direction: row;
@@ -66,7 +68,6 @@ body {
 }
 .footer .contato a {
   color: #FFDEAD;
-  margin-right: 2%;
 }
 
 @media (max-width: 650px) {
@@ -74,11 +75,10 @@ body {
     width: 150px;
   }
   .container01 .name {
-    font-size: 30px;
+    font-size: 35px;
   }
   .container01 .btn {
     width: 375px;
-    border: 1px solid #d3d3d3;
     font-weight: 400;
   }
 }
@@ -87,7 +87,7 @@ body {
     width: 125px;
   }
   .container01 .name {
-    font-size: 25px;
+    font-size: 30px;
   }
   .container01 .btn {
     width: 300px;
@@ -97,7 +97,7 @@ body {
 }
 @media (max-width: 375px) {
   .container01 .name {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
   }
   .container01 .btn {
@@ -110,14 +110,14 @@ body {
 }
 @media (max-width: 300px) {
   .container01 .name {
-    font-size: 16px;
+    font-size: 20px;
   }
   .container01 .btn {
     width: 200px;
     font-size: 14px;
   }
   .footer {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 @media (max-width: 243px) {
@@ -125,7 +125,7 @@ body {
     width: 75px;
   }
   .container01 .name {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
   }
   .container01 .btn {
@@ -133,7 +133,7 @@ body {
     font-size: 12px;
   }
   .footer {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 

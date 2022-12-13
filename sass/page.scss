@@ -10,6 +10,9 @@ body {
 
 .container00 {
    min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .container01 {
@@ -60,7 +63,8 @@ body {
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-evenly;
-   font-size: 16px;
+   gap: .5rem 1rem;
+   font-size: 1rem;
    padding-top: 1%;
    border-top: 1px solid $light-color;
 

@@ -68,6 +68,7 @@ body {
 }
 .footer .contato a {
   color: #FFDEAD;
+  margin-right: 0.25rem;
 }
 
 @media (max-width: 650px) {

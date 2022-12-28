@@ -30,8 +30,16 @@ body {
   border-radius: 100%;
 }
 .container01 .name {
+  display: flex;
+  flex-direction: column;
   font-size: 40px;
   font-weight: 600;
+  color: #FFDEAD;
+  margin-bottom: 0;
+}
+.container01 .work {
+  font-size: 20px;
+  font-weight: 400;
   color: #FFDEAD;
 }
 .container01 .btn {
@@ -117,6 +125,9 @@ body {
   .container01 .name {
     font-size: 25px;
     font-weight: 600;
+  }
+  .container01 .work {
+    font-size: 15px;
   }
   .container01 .btn {
     width: 250px;

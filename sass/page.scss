@@ -17,17 +17,17 @@ body {
 }
 
 .container01 {
-   height: 90vh;
+   height: 100vh;
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
-   gap: 3vh;
+   padding-top: 1rem;
 
    img {
-      max-width: 200px;
+      max-width: 175px;
       border: 1px solid $red-color;
       border-radius: 100%;
+      margin-bottom: .5rem;
    }
 
    .name {
@@ -45,40 +45,47 @@ body {
       color: $light-color;
    }
 
-   .btn {
-      width: 500px;
-      border: 2px solid $light-color;
-      border-radius: 1rem;
-      font-size: 18px;
-      font-weight: 500;
-      color: $light-color;
-      outline: none;
-      position: relative;
-      display: block;
-      overflow: hidden;
-      transition: 1s all ease;
+   .links {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: .750rem;
 
-      &::before {
-         width: 0;
-         height: 100%;
-         background: $red-color;
+      .btn {
+         width: 500px;
+         border: 2px solid $light-color;
          border-radius: 1rem;
-         content: "";
-         position: fixed;
-         top: 0;
-         left: 0;
-         z-index: -1;
-         transition: all 0.6s ease;
-      }
-
-      &:hover {
-         transform: scale(1.15, 1.15);
-
+         font-size: 18px;
+         font-weight: 500;
+         color: $light-color;
+         outline: none;
+         position: relative;
+         display: block;
+         overflow: hidden;
+         transition: 1s all ease;
+   
          &::before {
-            width: 100%;
+            width: 0;
+            height: 100%;
+            background: $red-color;
+            border-radius: 1rem;
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all 0.6s ease;
          }
+   
+         &:hover {
+            transform: scale(1.15, 1.15);
+   
+            &::before {
+               width: 100%;
+            }
+         }
+   
       }
-
    }
 }
 

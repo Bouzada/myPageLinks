@@ -9,9 +9,11 @@
          font-size: 35px;
       }
 
-      .btn {
-         width: 375px;
-         font-weight: 400;
+      .links {
+         .btn {
+            width: 375px;
+            font-weight: 400;
+         }
       }
    }
 }
@@ -26,10 +28,12 @@
          font-size: 30px;
       }
 
-      .btn {
-         width: 300px;
-         font-size: 16px;
-         font-weight: 200;
+      .links {
+         .btn {
+            width: 300px;
+            font-size: 16px;
+            font-weight: 200;
+         }
       }
    }
 }
@@ -45,9 +49,11 @@
          font-size: 15px;
       }
 
-      .btn {
-         width: 250px;
-         font-size: 15px;
+      .links {
+         .btn {
+            width: 250px;
+            font-size: 15px;
+         }
       }
    }
 
@@ -62,9 +68,11 @@
          font-size: 20px;
       }
 
-      .btn {
-         width: 200px;
-         font-size: 14px;
+      .links {
+         .btn {
+            width: 200px;
+            font-size: 14px;
+         }
       }
    }
 
@@ -74,7 +82,6 @@
 }
 
 @media (max-width: 243px) {
-
    .container01 {
       img {
          width: 75px;
@@ -89,9 +96,11 @@
          font-size: 13px;
       }
 
-      .btn {
-         width: 150px;
-         font-size: 12px;
+      .links {
+         .btn {
+            width: 150px;
+            font-size: 12px;
+         }
       }
    }
 
